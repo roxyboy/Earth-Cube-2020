@@ -8,5 +8,8 @@ We demonstrate that, by taking advantage of the `Pangeo architecture <http://pan
 
 The full three-dimensional dataset used for this analysis is unfortunately too large to host on a Binder cluster but the two-dimensional data of sea-surface height and horizontal velocity are available on `Pangeo <https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/>`_.
 
+The eNATL60 twin-experiment (with and without tidal forcing) is the result of a collaboration between `Ocean Next <http://www.ocean-next.fr/>`_ and the `MEOM group <https://meom-group.github.io/>`_ at `IGE <http://www.ige-grenoble.fr/>`_.
+eNATL60 experiments have been performed on the `MareNostrum IV supercomputer (Barcelona, Spain) <https://www.bsc.es/>`_ thanks to a 40 million cpu-hour allocation granted by PRACE (prace-ri.eu/): project ReSuMPTiOn, call #16. 
+The complete eNATL60 output data archive (~ 1.5 PB) is hosted at `CINES (Montpellier, France) <https://www.cines.fr/>`_. Uchida acknowledges additional support from the French Make Our Planet Great Again (MOPGA) initiative.
 
 
