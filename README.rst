@@ -2,7 +2,7 @@ Diagnosing submesoscale mode water formation in eNATL60
 =======================================================
 
 
-We provide the notebooks in which we calculate the submesoscale potential vorticity flux terms `Mode-water_Jfluxes.ipynb <Mode-water_Jfluxes.ipynb>`_ via the parametrization proposed by `Wenegrat et al. (2013) <https://journals.ametsoc.org/doi/full/10.1175/JPO-D-17-0219.1>`_ to diagnose the relative contribution of surface forcing on mode water formation in the Gulf Stream region. The tidally-forced North Atlantic simulation (eNATL60) we analyze has the horizontal resolution of 1/60$^\circ$ with 300 vertical layers, which allows for well formed mesoscale eddies and partially resolves the submesoscales.  
+We provide the notebooks in which we calculate the submesoscale potential vorticity flux terms `Mode-water_Jfluxes.ipynb <Mode-water_Jfluxes.ipynb>`_ via the parametrization proposed by `Wenegrat et al. (2013) <https://journals.ametsoc.org/doi/full/10.1175/JPO-D-17-0219.1>`_ to diagnose the relative contribution of surface forcing on mode water formation in the Gulf Stream region. The tidally-forced North Atlantic simulation (eNATL60) we analyze has the horizontal resolution of 1/60:math:`^\circ` with 300 vertical layers, which allows for well formed mesoscale eddies and partially resolves the submesoscales.  
 The results are plotted in `Jflux_outputs.ipynb <Jflux_outputs.ipynb>`_.
 
 We demonstrate that, by taking advantage of the `Pangeo architecture <http://pangeo.io/>`_, we can analyze the dataset of eNATL60 hosted on Occigen at CINES, the French national supercomputing facility, directly on Occigen using its computational nodes. 
